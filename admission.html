@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Session Selection</title>
+  <link rel="stylesheet" href="admission.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="DUV International School" class="logo">
+      <h1>Select Admission Session</h1>
+    </header>
+    
+    <form id="sessionForm">
+      <label for="school">School:</label>
+      <select id="school">
+        <option value="1">Pre - Primary</option>
+        <option value="2">Primary</option>
+        <option value="3">Middle</option>
+        <option value="4">Senior</option>
+        <option value="5">Senior - Secondary</option>
+      </select>
+
+      <label for="session">Session:</label>
+      <select id="session">
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">Back</button>
+
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
