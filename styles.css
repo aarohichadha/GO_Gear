@@ -4,6 +4,48 @@
 header {
     background: none; /* Remove the blue background */
     padding: 0; /* Adjust padding if necessary */
+    margin-top: 60px; /* Add some top margin if needed */
+}
+/* General styles */
+body {
+   
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+/* Remove top white space */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove margin from header */
+header {
+    margin: 0; 
+    padding: 0;
+}
+
+/* Background image and its properties */
+body::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('children.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: hard-light;
+    opacity: 0.5;
+    z-index: -1;
+    margin-top: 280px; /* Keeps existing image placement */
+}
+header {
+    background: none; /* Remove the blue background */
+    padding: 0; /* Adjust padding if necessary */
     margin-top: 50px; /* Add some top margin if needed */
 }
 
