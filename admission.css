@@ -40,14 +40,14 @@ body {
     border-radius: 5px;
   }
   button {
-    background-color: #007bff;
+    background-color: #0056b3;
     color: white;
     border: none;
     cursor: pointer;
     margin-top: 20px;
   }
   button:hover {
-    background-color: #0056b3;
+    background-color: #01254d;
   }
   .back-btn {
     background-color: #0056b3;
@@ -61,5 +61,5 @@ body {
     border-radius: 5px;
   }
   .back-btn:hover {
-    background-color: #003f7f;
+    background-color: #01254d;
   }
